@@ -1,5 +1,9 @@
+using CMSSolution.Data.Context;
+using CMSSolution.Data.Repositories.Concrete.EntityTypeRepository;
+using CMSSolution.Data.Repositories.Interface.EntityRepository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -8,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CMSSolution.Wep
+namespace CMSSolution.Web
 {
     public class Startup
     {
@@ -20,9 +24,19 @@ namespace CMSSolution.Wep
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
+
+        //burası IOC container. Projemde inject ettiğim sınıflarımı burada belirtiyorum ki böylece kullanıma hazır hale geliyor.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            
+            services.AddScoped<IAppUserRepository, AppUserRepository>();
+            services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IPageRepository, PageRepository>();
+            services.AddScoped<IProductRepository, ProductRepository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

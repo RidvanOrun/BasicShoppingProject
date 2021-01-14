@@ -1,4 +1,4 @@
-﻿using CMSSolution.Wep.Models;
+﻿using CMSSolution.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CMSSolution.Wep.Controllers
+namespace CMSSolution.Web.Controllers
 {
     public class HomeController : Controller
     {
