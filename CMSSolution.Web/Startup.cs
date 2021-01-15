@@ -25,7 +25,8 @@ namespace CMSSolution.Web
 
         // This method gets called by the runtime. Use this method to add services to the container.
 
-        //burası IOC container. Projemde inject ettiğim sınıflarımı burada belirtiyorum ki böylece kullanıma hazır hale geliyor.
+        // Burası IOC container. Projemde inject ettiğim sınıflarımı burada belirtiyorum ki böylece kullanıma hazır hale geliyor.
+        // Proje içerisinde; bağlantılı olan sınıflarımı birbirlerine inject ediyorum.  Müteakiben IOC conteynırıa register etmek için Start up classının içeirisnde bulunan ConfigureServices methodunun içerisine ekliyorum. IOC kanteynır da bana Bağımlılıkları tersine çevirmeyi temin ediyor. Bu yöntem ile sınıflarımın (new lemekteki) sıkı sıkıya bağımlılığı ortadan kaldırma amacıyla yapılmıştır.Böylecede DIP'e tamamen uymuş olduk.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
@@ -40,6 +41,7 @@ namespace CMSSolution.Web
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -59,8 +61,14 @@ namespace CMSSolution.Web
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
+                   name: "areas",
+                   pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
+                endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                
+               
             });
         }
     }
