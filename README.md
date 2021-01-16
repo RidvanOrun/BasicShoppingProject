@@ -1,15 +1,17 @@
 
 Bu proje; ASP.NetCore teknolojisi ile yapılmıştır. 
 Projede özet olarak; 
-[**Lab1**]() => DataBase First yönetimin ve Linq To temel sorguları anlatılmıştır.
 
-[**Lab1**]() => DataBase First yönetimin ve Linq To temel sorguları anlatılmıştır.
 
-[**Lab1**]() => DataBase First yönetimin ve Linq To temel sorguları anlatılmıştır.
+[**IdentityUser**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Entity/Entities/Concrete/AppUser.cs) => IdentityUser kullanılmış ve  anlatılmıştır.
 
-[**Lab1**]() => DataBase First yönetimin ve Linq To temel sorguları anlatılmıştır.
+[**IEntityTypeConfiguration**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Map/Mapping/Abstract/BaseMap.cs) => CMSSolution.Mapping katmanında mapping işlemi yapılmış ve bu kısımda IEntityTypeConfiguration anlatılmıştır.
 
-[**Lab1**]() => DataBase First yönetimin ve Linq To temel sorguları anlatılmıştır.
+[**IdentityDbContext**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Data/Context/ApplicationDbContext.cs) => Projenin DB ile bağlantısının oluşturmak için kullanılan AplicationDbContext.cs'nin Asp.netCore'da nasıl oluşturulduğu anlatılmıştır.
+
+[**DataAccess**](https://github.com/RidvanOrun/CMSSolution/tree/master/CMSSolution.Data/Repositories) => Bu kısımda DIP'e uyulması gereği UI katmanında kullanıclak olan Interfacelerin özelliklerinin nasıl kazandırıldığı, inject yöneti ve Generic repository mantığı uygulanmıştır.
+
+[**SeedData**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Data/SeedData/SeedPages.cs) => Tohumlama işlemi uygulanmış ve anlatılmıştır.
 
 
 # Asp.NetCore nedir?;
