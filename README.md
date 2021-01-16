@@ -1,20 +1,20 @@
 # CMS 
-Bu proje; ASP.NetCore teknolojisi ile yapılmıştır. 
+Bu proje; Asp.NetCore teknolojisi ile yapılmıştır. 
 
-Projede özet olarak; 
+Projede Asp.NetCore teknolojisiyle birlikte aşağıda belirttiğim hususlar anlatılmıştır.
 
 
-[**IdentityUser**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Entity/Entities/Concrete/AppUser.cs) => Bu kısımda IdentityUser kullanılmış ve  anlatılmış,
+[**IdentityUser**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Entity/Entities/Concrete/AppUser.cs) => Bu kısımda IdentityUser kullanılmış ve  anlatılmıştır.
 
-[**IEntityTypeConfiguration**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Map/Mapping/Abstract/BaseMap.cs) => CMSSolution.Mapping katmanında mapping işlemi yapılmış ve bu kısımda IEntityTypeConfiguration anlatılmış,
+[**IEntityTypeConfiguration**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Map/Mapping/Abstract/BaseMap.cs) => CMSSolution.Mapping katmanında mapping işlemi yapılmış ve bu kısımda IEntityTypeConfiguration anlatılmıştır.
 
-[**IdentityDbContext**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Data/Context/ApplicationDbContext.cs) => Projenin DB ile bağlantısının oluşturmak için kullanılan AplicationDbContext.cs'nin Asp.netCore'da nasıl oluşturulduğu anlatılmış,
+[**IdentityDbContext**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Data/Context/ApplicationDbContext.cs) => Projenin DB ile bağlantısının oluşturmak için kullanılan AplicationDbContext.cs'nin Asp.netCore'da nasıl oluşturulduğu anlatılmıştır.
 
-[**DataAccess**](https://github.com/RidvanOrun/CMSSolution/tree/master/CMSSolution.Data/Repositories) => Bu kısımda DIP'e uyulması gereği UI katmanında kullanıclak olan Interfacelerin özelliklerinin nasıl kazandırıldığı, inject yöneti ve Generic repository mantığı uygulanmış,
+[**DataAccess**](https://github.com/RidvanOrun/CMSSolution/tree/master/CMSSolution.Data/Repositories) => Bu kısımda DIP'e uyulması gereği UI katmanında kullanıclak olan Interfacelerin özelliklerinin nasıl kazandırıldığı, inject yöneti ve Generic repository mantığı uygulanmıştır.
 
-[**SeedData**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Data/SeedData/SeedPages.cs) => Tohumlama işlemi uygulanmış ve anlatılmış,
+[**SeedData**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Data/SeedData/SeedPages.cs) => Tohumlama işlemi uygulanmış ve anlatılmıştır.
 
-[**Startup.cs**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Web/Startup.cs) => Gittbook sayfamda ayrıntılı anlattığım Startup.cs içerisinde bulunan Configure ve ConfigureService methodları kullanılmış/anlatılmış,
+[**Startup.cs**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Web/Startup.cs) => Gittbook sayfamda ayrıntılı anlattığım Startup.cs içerisinde bulunan Configure ve ConfigureService methodları kullanılmış/anlatılmıştır.
 
 [**Asynchrony Programing**]() => Gittbook sayfamda ayrıntılı anlattığım Asynchrony Programing anlatılmıştır.
 
