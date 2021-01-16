@@ -1,17 +1,23 @@
-
+# CMS 
 Bu proje; ASP.NetCore teknolojisi ile yapılmıştır. 
+
 Projede özet olarak; 
 
 
-[**IdentityUser**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Entity/Entities/Concrete/AppUser.cs) => IdentityUser kullanılmış ve  anlatılmıştır.
+[**IdentityUser**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Entity/Entities/Concrete/AppUser.cs) => Bu kısımda IdentityUser kullanılmış ve  anlatılmış,
 
-[**IEntityTypeConfiguration**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Map/Mapping/Abstract/BaseMap.cs) => CMSSolution.Mapping katmanında mapping işlemi yapılmış ve bu kısımda IEntityTypeConfiguration anlatılmıştır.
+[**IEntityTypeConfiguration**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Map/Mapping/Abstract/BaseMap.cs) => CMSSolution.Mapping katmanında mapping işlemi yapılmış ve bu kısımda IEntityTypeConfiguration anlatılmış,
 
-[**IdentityDbContext**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Data/Context/ApplicationDbContext.cs) => Projenin DB ile bağlantısının oluşturmak için kullanılan AplicationDbContext.cs'nin Asp.netCore'da nasıl oluşturulduğu anlatılmıştır.
+[**IdentityDbContext**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Data/Context/ApplicationDbContext.cs) => Projenin DB ile bağlantısının oluşturmak için kullanılan AplicationDbContext.cs'nin Asp.netCore'da nasıl oluşturulduğu anlatılmış,
 
-[**DataAccess**](https://github.com/RidvanOrun/CMSSolution/tree/master/CMSSolution.Data/Repositories) => Bu kısımda DIP'e uyulması gereği UI katmanında kullanıclak olan Interfacelerin özelliklerinin nasıl kazandırıldığı, inject yöneti ve Generic repository mantığı uygulanmıştır.
+[**DataAccess**](https://github.com/RidvanOrun/CMSSolution/tree/master/CMSSolution.Data/Repositories) => Bu kısımda DIP'e uyulması gereği UI katmanında kullanıclak olan Interfacelerin özelliklerinin nasıl kazandırıldığı, inject yöneti ve Generic repository mantığı uygulanmış,
 
-[**SeedData**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Data/SeedData/SeedPages.cs) => Tohumlama işlemi uygulanmış ve anlatılmıştır.
+[**SeedData**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Data/SeedData/SeedPages.cs) => Tohumlama işlemi uygulanmış ve anlatılmış,
+
+[**Startup.cs**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Web/Startup.cs) => Gittbook sayfamda ayrıntılı anlattığım Startup.cs içerisinde bulunan Configure ve ConfigureService methodları kullanılmış/anlatılmış,
+
+[**Asynchrony Programing**]() => Gittbook sayfamda ayrıntılı anlattığım Asynchrony Programing anlatılmıştır.
+
 
 
 # Asp.NetCore nedir?;
