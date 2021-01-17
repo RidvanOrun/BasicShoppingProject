@@ -16,10 +16,6 @@ Projede Asp.NetCore teknolojisiyle birlikte aşağıda belirttiğim hususlar anl
 
 [**Startup.cs**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Web/Startup.cs) => Gittbook sayfamda ayrıntılı anlattığım Startup.cs içerisinde bulunan Configure ve ConfigureService methodları kullanılmış/anlatılmıştır.
 
-[**Asynchrony Programing**]() => Gittbook sayfamda ayrıntılı anlattığım Asynchrony Programing anlatılmıştır.
-
-
-
 # Asp.NetCore nedir?;
 
 ![Image of CORE](https://gblobscdn.gitbook.com/assets%2F-MR9wwvmI8SJVJgLR_0N%2F-MRA7sHfUI-iHNmRinJ4%2F-MRA97LrHwGUKuU-xYzn%2F.netCore.png?alt=media&token=f65394ac-7c8f-4731-8d32-d3aa996b2c58)
