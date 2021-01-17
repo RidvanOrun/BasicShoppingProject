@@ -18,7 +18,8 @@ Projede Asp.NetCore teknolojisiyle birlikte aşağıda belirttiğim hususlar anl
 
 # Asp.NetCore nedir?;
 
-![Image of CORE](https://gblobscdn.gitbook.com/assets%2F-MR9wwvmI8SJVJgLR_0N%2F-MRA7sHfUI-iHNmRinJ4%2F-MRA97LrHwGUKuU-xYzn%2F.netCore.png?alt=media&token=f65394ac-7c8f-4731-8d32-d3aa996b2c58)
+
+![Image of CORE](https://gblobscdn.gitbook.com/assets%2F-MR9wwvmI8SJVJgLR_0N%2F-MRFyJKdvV_OJpkXG0Vu%2F-MRFzpFQ92XJl30dWSYJ%2FCoreee.jpeg?alt=media&token=f656e305-2294-4c58-981d-09541db59beb)
 
   Asp.Net Core Microsoft tarafından açık kaynak kodlu (open-source) olarak geliştirilen. Cross platform(windows, macos, linux işletim sistemlerinde çalışabilen) olarak çalışan, esnek ve modern geliştirme platformudur. .Net Core ile beraber yazılımcılar dilerse macos, linux veya android platformlarına uygulamalarını yazabileceklerdir.
   
