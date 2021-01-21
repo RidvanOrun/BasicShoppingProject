@@ -59,18 +59,29 @@ namespace CMSSolution.Web
 
             app.UseAuthorization();
 
-            app.UseEndpoints(endpoints =>
+            app.UseEndpoints(endpoints =>           
             {
+                // NOT : => DEFAULT ÜZERİNDE YAPILACAK İŞLEMLER İÇİN TEK TEK ENDPOİNT KULLANILMASI GEREKİYOR. FAKAT AREA İÇİN TEK BİR  HAMLE YETERLİDİR.
                 endpoints.MapControllerRoute(
-                   name: "areas",
-                   pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+                     name: "page", //Name => Yolun Adı
+                     pattern: "{slug?}", // "slug?" nedir slug yanında id de taşır... => pattern Bunun yazılmasının sebebi methodların yapılacağı işleme göre URL belirlenmesidir.
+                defaults: new { controller = "Page", action = "Page" });  // => 
 
                 endpoints.MapControllerRoute(
-                    name: "default",
+                    name: "product",
+                    pattern: "product/{categorySlug}",
+                    defaults: new { controller = "Product", action = "ProductByCategory" }); // => endpointleri methodlara yönlendirmek için default kullanılır.
+
+                endpoints.MapControllerRoute( // => default sayfalar için bu end pointi kullandık
+                    name: "default", //=> yolun adı
                     pattern: "{controller=Home}/{action=Index}/{id?}");
-                
-               
-            });
+
+                endpoints.MapControllerRoute( //=> Area içerisinde bütün controller üzerinde ki methodların olduğu View sayfasının görüntülenmesi için sadece bu endpointi kullanmak yeterlidir.
+                    name: "areas",
+                    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}"); // => pattern adres gösterir, eğer direk adres belirtiyorsa defaults a gerek yok. 
+                // exist => kullanıldığında name içerisinde yazılı olan bütün index ve methodlar çalışır.
+                // sağ tarafına yazılması gereken adreslerin "{controller=Home}/{action=Index}/{id?}" standartı belirtilmesi yeterlidir. 
+            });        
         }
     }
 }
