@@ -37,6 +37,7 @@ namespace CMSSolution.Web
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<IPageRepository, PageRepository>();
             services.AddScoped<IProductRepository, ProductRepository>();
+          
 
         }
 

@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CMSSolution.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210115200013_CMSSolution")]
-    partial class CMSSolution
+    [Migration("20210119164332_CMSSolution1")]
+    partial class CMSSolution1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -120,6 +120,9 @@ namespace CMSSolution.Data.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<string>("Slug")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<int>("Status")
                         .HasColumnType("int");
 
@@ -173,7 +176,7 @@ namespace CMSSolution.Data.Migrations
                         {
                             Id = 1,
                             Content = "Home Page",
-                            CreateDate = new DateTime(2021, 1, 15, 23, 0, 11, 165, DateTimeKind.Local).AddTicks(7379),
+                            CreateDate = new DateTime(2021, 1, 19, 19, 43, 31, 265, DateTimeKind.Local).AddTicks(5561),
                             Slug = "home-page",
                             Sorting = 100,
                             Status = 1,
@@ -183,7 +186,7 @@ namespace CMSSolution.Data.Migrations
                         {
                             Id = 2,
                             Content = "About US Page",
-                            CreateDate = new DateTime(2021, 1, 15, 23, 0, 11, 168, DateTimeKind.Local).AddTicks(3554),
+                            CreateDate = new DateTime(2021, 1, 19, 19, 43, 31, 268, DateTimeKind.Local).AddTicks(666),
                             Slug = "about-page",
                             Sorting = 100,
                             Status = 1,
@@ -193,7 +196,7 @@ namespace CMSSolution.Data.Migrations
                         {
                             Id = 3,
                             Content = "Services Page",
-                            CreateDate = new DateTime(2021, 1, 15, 23, 0, 11, 168, DateTimeKind.Local).AddTicks(3684),
+                            CreateDate = new DateTime(2021, 1, 19, 19, 43, 31, 268, DateTimeKind.Local).AddTicks(803),
                             Slug = "service-page",
                             Sorting = 100,
                             Status = 1,
@@ -203,7 +206,7 @@ namespace CMSSolution.Data.Migrations
                         {
                             Id = 4,
                             Content = "Contanct Us Page",
-                            CreateDate = new DateTime(2021, 1, 15, 23, 0, 11, 168, DateTimeKind.Local).AddTicks(3690),
+                            CreateDate = new DateTime(2021, 1, 19, 19, 43, 31, 268, DateTimeKind.Local).AddTicks(810),
                             Slug = "contact-page",
                             Sorting = 100,
                             Status = 1,

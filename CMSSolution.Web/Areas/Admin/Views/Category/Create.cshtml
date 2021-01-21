@@ -1,29 +1,24 @@
-﻿@model CMSSolution.Entity.Entities.Concrete.Page
-
+﻿
 @{
     ViewData["Title"] = "Create";
 }
+
 
 <div class="row mt-2">
     <div class="col-md-8">
         <div class="card">
             <div class="card-header">
-                <h4 class="card-title">Create Page</h4>
+                <h4 class="card-title">Create Category</h4>
             </div>
             <div class="card-body">
                 <form asp-action="Create">
                     <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                     <div class="form-group">
-                        <label asp-for="Title" class="control-label"></label>
-                        <input asp-for="Title" class="form-control" />
-                        <span asp-validation-for="Title" class="text-danger"></span>
+                        <label asp-for="Name" class="control-label"></label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
                     </div>
-                    <div class="form-group">
-                        <label asp-for="Content" class="control-label"></label>
-                        <input asp-for="Content" class="form-control" />
-                        <span asp-validation-for="Content" class="text-danger"></span>
-                    </div>
-                    <div class="form-group">
+                    <div class="form-group float-right">
                         <input type="submit" value="Create" class="btn btn-primary" />
                     </div>
                 </form>
@@ -35,7 +30,7 @@
     </div>
 </div>
 
-
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+
