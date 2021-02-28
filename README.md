@@ -1,19 +1,13 @@
 # Basic Shopping Project
-Bu proje; Asp.NetCore teknolojisi ile yapılmıştır. 
+Bu proje; Asp.NetCore ve katmanlı mimarı ile yapılmıştır. Asp.NetCore, IOC Conteyner, Startup.cs ile ilgili ayrıntıyı bilgiye GitBook sayfadam [*GitBook/RidvanOrun/.NetCore*](https://ridvanorun.gitbook.io/asp-net-core/)  ulaşabilirsiniz.
 
 ## Projede kullanılan teknolojiler;
 
-[**IdentityUser**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Entity/Entities/Concrete/AppUser.cs) => Bu kısımda IdentityUser kullanılmış ve  anlatılmıştır.
+Asp.NetCore, Asynchronous Programming, View Component => [*RidvanOrun/GitBook/.NetCore*](https://ridvanorun.gitbook.io/asp-net-core/)
 
-[**IEntityTypeConfiguration**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Map/Mapping/Abstract/BaseMap.cs) => CMSSolution.Mapping katmanında mapping işlemi yapılmış ve bu kısımda IEntityTypeConfiguration anlatılmıştır.
+Generic Repository Design Pattern =>[*RidvanOrun/GitBook/DesingPattern*](https://ridvanorun.gitbook.io/desing-patterns/)
 
-[**IdentityDbContext**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Data/Context/ApplicationDbContext.cs) => Projenin DB ile bağlantısının oluşturmak için kullanılan AplicationDbContext.cs'nin Asp.netCore'da nasıl oluşturulduğu anlatılmıştır.
-
-[**DataAccess**](https://github.com/RidvanOrun/CMSSolution/tree/master/CMSSolution.Data/Repositories) => Bu kısımda DIP'e uyulması gereği UI katmanında kullanıclak olan Interfacelerin özelliklerinin nasıl kazandırıldığı, inject yöneti ve Generic repository mantığı uygulanmıştır.
-
-[**SeedData**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Data/SeedData/SeedPages.cs) => Tohumlama işlemi uygulanmış ve anlatılmıştır.
-
-[**Startup.cs**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Web/Startup.cs) => Gittbook sayfamda ayrıntılı anlattığım Startup.cs içerisinde bulunan Configure ve ConfigureService methodları kullanılmış/anlatılmıştır.
+DTO, VM =>[*RidvanOrun/GitBook/DesingPattern*](https://ridvanorun.gitbook.io/object-operation/)
 
 # Asp.NetCore ;
 
@@ -23,4 +17,4 @@ Bu proje; Asp.NetCore teknolojisi ile yapılmıştır.
   
   Asp.Net Core hem Dependency Injection destekler hem de bunun için herhangi bir ek uygulamaya ihtiyaç duymaz. Buda kullanıcıları için oldukça büyük bir verimlilik oluşturur.
    
-   Yukarıda başlangıç olarak sunduğum Asp.NetCore, IOC Conteyner, Startup.cs ile ilgili ayrıntıyı bilgiye GitBook sayfadam [*GitBook/RidvanOrun*](https://ridvanorun.gitbook.io/asp-net-core/)  ulaşabilirisniz 
+   
