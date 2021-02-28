@@ -1,8 +1,7 @@
-# CMS 
+# Basic Shopping Project
 Bu proje; Asp.NetCore teknolojisi ile yapılmıştır. 
 
-Projede Asp.NetCore teknolojisiyle birlikte aşağıda belirttiğim hususlar anlatılmıştır.
-
+## Projede kullanılan teknolojiler;
 
 [**IdentityUser**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Entity/Entities/Concrete/AppUser.cs) => Bu kısımda IdentityUser kullanılmış ve  anlatılmıştır.
 
@@ -16,7 +15,7 @@ Projede Asp.NetCore teknolojisiyle birlikte aşağıda belirttiğim hususlar anl
 
 [**Startup.cs**](https://github.com/RidvanOrun/CMSSolution/blob/master/CMSSolution.Web/Startup.cs) => Gittbook sayfamda ayrıntılı anlattığım Startup.cs içerisinde bulunan Configure ve ConfigureService methodları kullanılmış/anlatılmıştır.
 
-# Asp.NetCore nedir?;
+# Asp.NetCore ;
 
 ![Image of CORE](https://gblobscdn.gitbook.com/assets%2F-MR9wwvmI8SJVJgLR_0N%2F-MRBEwGOYBF7cH7-C3qI%2F-MRBMEg99F6yDnstQVuW%2FStandartvsCore.png?alt=media&token=8a59b987-3601-452a-9311-4c0c04c13b7f)
 
