@@ -7,7 +7,7 @@ Asp.NetCore, Asynchronous Programming, View Component => [*RidvanOrun/GitBook/.N
 
 Generic Repository Design Pattern =>[*RidvanOrun/GitBook/DesingPattern*](https://ridvanorun.gitbook.io/desing-patterns/)
 
-DTO, VM =>[*RidvanOrun/GitBook/DesingPattern*](https://ridvanorun.gitbook.io/object-operation/)
+DTO, VM, AutoMapper =>[*RidvanOrun/GitBook/DesingPattern*](https://ridvanorun.gitbook.io/object-operation/)
 
 # Asp.NetCore ;
 
